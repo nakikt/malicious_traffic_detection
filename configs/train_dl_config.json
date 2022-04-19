@@ -1,0 +1,17 @@
+{
+  "train_arrays" : "preprocess_result_dl/train_arrays.ubyte",
+  "train_labels" : "preprocess_result_dl/train_labels.ubyte",
+  "test_arrays" : "preprocess_result_dl/test_arrays.ubyte",
+  "test_labels" : "preprocess_result_dl/test_labels.ubyte",
+  "data_dir" : "preprocess_result",
+  "model" : "model.h5",
+  "shuffle" : 0,
+  "plot" : 0,
+  "prediction_path" : "predictions.csv",
+  "display_arrays" : 0,
+  "json" : "configs/USTC-TFC2016_full_config.json",
+  "batch_size" : 2000,
+  "epochs" : 10,
+  "steps_per_epoch" : 100,
+  "validation_steps" : 20
+}
